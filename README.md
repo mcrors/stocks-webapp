@@ -1,6 +1,11 @@
-# Stocks
+# Stocks Webapps
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
+The project was taken from Anular In Action book.
+
+An in memory collection of stock symbols are used to retrieve data about those stocks.
+Additional stock symbols can be added to the collection, however, once the app has been
+refreshed, then the collection will revert to the original list.
 
 ## Development server
 

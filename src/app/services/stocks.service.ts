@@ -26,7 +26,8 @@ export class StocksService {
     }
 
     add(stock: string) {
-        stocks.push(stock)
+        stocks.push(stock);
+        return this.get();
     }
 
     remove(stock: string) {
